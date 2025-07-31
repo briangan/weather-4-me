@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.2.6'
 
+gem 'concurrent-ruby', '1.3.4' # Macs can have ActiveSupport::LoggerThreadSafeLevel::Logger (NameError) in version 1.3.5
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.10'
 # Use sqlite3 as the database for Active Record
@@ -27,6 +29,10 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
+
+# Database
+
+gem 'httparty' # For making HTTP requests
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

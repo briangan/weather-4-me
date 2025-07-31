@@ -16,6 +16,6 @@ class CreateWeather4MeForecasts < ActiveRecord::Migration[6.1]
   end
 
   def down
-    drop_table :weather4_me_forecasts
+    drop_table :forecasts
   end
 end

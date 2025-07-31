@@ -12,6 +12,19 @@
 
 ActiveRecord::Schema.define(version: 2025_07_31_194306) do
 
+  create_table "forecasts", force: :cascade do |t|
+    t.integer "location_id"
+    t.integer "current_temp"
+    t.integer "low_temp"
+    t.integer "high_temp"
+    t.string "condition"
+    t.datetime "forecast_time"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["location_id", "forecast_time"], name: "index_forecasts_on_location_id_and_forecast_time"
+    t.index ["location_id"], name: "index_forecasts_on_location_id"
+  end
+
   create_table "locations", force: :cascade do |t|
     t.string "city"
     t.string "state"
@@ -24,19 +37,6 @@ ActiveRecord::Schema.define(version: 2025_07_31_194306) do
     t.index ["city", "state", "country"], name: "index_locations_on_city_and_state_and_country"
     t.index ["longitude", "latitude"], name: "index_locations_on_longitude_and_latitude"
     t.index ["zip_code", "country"], name: "index_locations_on_zip_code_and_country"
-  end
-
-  create_table "weather4_me_forecasts", force: :cascade do |t|
-    t.integer "location_id"
-    t.integer "current_temp"
-    t.integer "low_temp"
-    t.integer "high_temp"
-    t.string "condition"
-    t.datetime "forecast_time"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.index ["location_id", "forecast_time"], name: "index_weather4_me_forecasts_on_location_id_and_forecast_time"
-    t.index ["location_id"], name: "index_weather4_me_forecasts_on_location_id"
   end
 
 end

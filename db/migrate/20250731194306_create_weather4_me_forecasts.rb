@@ -1,6 +1,6 @@
 class CreateWeather4MeForecasts < ActiveRecord::Migration[6.1]
   def up
-    create_table :weather4_me_forecasts do |t|
+    create_table :forecasts do |t|
       t.integer :location_id
       t.integer :current_temp
       t.integer :low_temp

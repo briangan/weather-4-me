@@ -82,6 +82,11 @@ Locations
 [ ] Save favorite or recent locations; and show on homepage
 [ ] A database of locations 
 
-bin/rails g migration Weather4Me::Location city:string state:string country:string zip_code:string longitude:float latitude:float
 
-bin/rails g scaffold Weather4Me::Forecast location_id:integer low_temperature:integer high_temperature:integer condition:string hour:integer 
+# Notes
+
+* Development steps
+
+bin/rails g migration CreateLocation city:string state:string country:string zip_code:string longitude:float latitude:float
+
+bin/rails g scaffold Weather4Me::Forecast location_id:integer current_temp:integer low_temp:integer high_temp:integer condition:string forecast_time:datetime expires_at:datetime

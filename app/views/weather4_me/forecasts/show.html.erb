@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @weather4_me_forecast.location_id %>
+</p>
+
+<p>
+  <strong>Current temp:</strong>
+  <%= @weather4_me_forecast.current_temp %>
+</p>
+
+<p>
+  <strong>Low temp:</strong>
+  <%= @weather4_me_forecast.low_temp %>
+</p>
+
+<p>
+  <strong>High temp:</strong>
+  <%= @weather4_me_forecast.high_temp %>
+</p>
+
+<p>
+  <strong>Condition:</strong>
+  <%= @weather4_me_forecast.condition %>
+</p>
+
+<p>
+  <strong>Forecast time:</strong>
+  <%= @weather4_me_forecast.forecast_time %>
+</p>
+
+<p>
+  <strong>Expires at:</strong>
+  <%= @weather4_me_forecast.expires_at %>
+</p>
+
+<%= link_to 'Edit', edit_weather4_me_forecast_path(@weather4_me_forecast) %> |
+<%= link_to 'Back', weather4_me_forecasts_path %>

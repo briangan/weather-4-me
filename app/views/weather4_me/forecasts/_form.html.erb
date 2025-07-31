@@ -1,0 +1,52 @@
+<%= form_with(model: weather4_me_forecast) do |form| %>
+  <% if weather4_me_forecast.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(weather4_me_forecast.errors.count, "error") %> prohibited this weather4_me_forecast from being saved:</h2>
+
+      <ul>
+        <% weather4_me_forecast.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :location_id %>
+    <%= form.number_field :location_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :current_temp %>
+    <%= form.number_field :current_temp %>
+  </div>
+
+  <div class="field">
+    <%= form.label :low_temp %>
+    <%= form.number_field :low_temp %>
+  </div>
+
+  <div class="field">
+    <%= form.label :high_temp %>
+    <%= form.number_field :high_temp %>
+  </div>
+
+  <div class="field">
+    <%= form.label :condition %>
+    <%= form.text_field :condition %>
+  </div>
+
+  <div class="field">
+    <%= form.label :forecast_time %>
+    <%= form.datetime_select :forecast_time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :expires_at %>
+    <%= form.datetime_select :expires_at %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

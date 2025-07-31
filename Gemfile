@@ -46,8 +46,11 @@ group :development do
   # Can be configured to work on production as well see: https://github.com/MiniProfiler/rack-mini-profiler/blob/master/README.md
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
+  
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  # There can cases when attemp to bin/rails c, would break: Rails::Application is abstract, you cannot instantiate it directly.
+  # There can be workaround; find later.
+  # gem 'spring' 
 end
 
 group :test do

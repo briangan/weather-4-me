@@ -44,7 +44,7 @@ convert into DayForecast records.  Then change Weather4Me::ForecastAPI.forecast 
 
 # Database
 Currently for development the database source used the local SQLite inside /db folder.
-For production level, suggest to use independent relational database like MySQL or PostgreSQL.
+For production level, suggest to use independent relational database like MySQL or PostgreSQL.  And update configuration in config/database.yml.
 
 # Deoployment
 
@@ -76,5 +76,12 @@ Forecast View
   [ ] If no saved, non-expiring result, fetch & parse from API service
 
 Locations
+[ ] Parse API service normalized/standardized location.  Find by city + state + country or create the location.
+[ ] If API service data does not container zip_code, find service to convert address to get zip_code
+  [ ] Use geocoder
 [ ] Save favorite or recent locations; and show on homepage
 [ ] A database of locations 
+
+bin/rails g migration Weather4Me::Location city:string state:string country:string zip_code:string longitude:float latitude:float
+
+bin/rails g scaffold Weather4Me::Forecast location_id:integer low_temperature:integer high_temperature:integer condition:string hour:integer 

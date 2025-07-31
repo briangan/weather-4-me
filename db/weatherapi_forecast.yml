@@ -1,0 +1,3109 @@
+---
+location:                                           
+  name: Boston                                      
+  region: Massachusetts                             
+  country: United States of America                 
+  lat: 42.3583                                      
+  lon: -71.0603                                     
+  tz_id: America/New_York                           
+  localtime_epoch: 1753988883                       
+  localtime: 2025-07-31 15:08                       
+current:                                            
+  last_updated_epoch: 1753988400                    
+  last_updated: 2025-07-31 15:00                    
+  temp_c: 21.1                                      
+  temp_f: 70.0                                      
+  is_day: 1
+  condition:
+    text: Overcast
+    icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+    code: 1009
+  wind_mph: 8.9
+  wind_kph: 14.4
+  wind_degree: 64
+  wind_dir: ENE
+  pressure_mb: 1019.0
+  pressure_in: 30.1
+  precip_mm: 0.0
+  precip_in: 0.0
+  humidity: 76
+  cloud: 100
+  feelslike_c: 21.1
+  feelslike_f: 70.0
+  windchill_c: 22.0
+  windchill_f: 71.6
+  heatindex_c: 24.6
+  heatindex_f: 76.2
+  dewpoint_c: 14.2
+  dewpoint_f: 57.6
+  vis_km: 13.0
+  vis_miles: 8.0
+  uv: 1.1
+  gust_mph: 11.9
+  gust_kph: 19.2
+  short_rad: 98.96
+  diff_rad: 65.7
+  dni: 0.0
+  gti: 0.0
+forecast:
+  forecastday:
+  - date: '2025-07-31'
+    date_epoch: 1753920000
+    day:
+      maxtemp_c: 23.4
+      maxtemp_f: 74.1
+      mintemp_c: 15.7
+      mintemp_f: 60.2
+      avgtemp_c: 22.4
+      avgtemp_f: 72.3
+      maxwind_mph: 9.2
+      maxwind_kph: 14.8
+      totalprecip_mm: 2.84
+      totalprecip_in: 0.11
+      totalsnow_cm: 0.0
+      avgvis_km: 9.0
+      avgvis_miles: 5.0
+      avghumidity: 70
+      daily_will_it_rain: 1
+      daily_chance_of_rain: 84
+      daily_will_it_snow: 0
+      daily_chance_of_snow: 0
+      condition:
+        text: Patchy rain nearby
+        icon: "//cdn.weatherapi.com/weather/64x64/day/176.png"
+        code: 1063
+      uv: 1.0
+    astro:
+      sunrise: 05:36 AM
+      sunset: '08:04 PM'
+      moonrise: 12:46 PM
+      moonset: 11:05 PM
+      moon_phase: Waxing Crescent
+      moon_illumination: 36
+      is_moon_up: 0
+      is_sun_up: 0
+    hour:
+    - time_epoch: 1753934400
+      time: 2025-07-31 00:00
+      temp_c: 26.4
+      temp_f: 79.4
+      is_day: 0
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/119.png"
+        code: 1006
+      wind_mph: 5.6
+      wind_kph: 9.0
+      wind_degree: 254
+      wind_dir: WSW
+      pressure_mb: 1013.0
+      pressure_in: 29.93
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 70
+      cloud: 67
+      feelslike_c: 28.1
+      feelslike_f: 82.5
+      windchill_c: 26.4
+      windchill_f: 79.4
+      heatindex_c: 28.1
+      heatindex_f: 82.5
+      dewpoint_c: 20.2
+      dewpoint_f: 68.4
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 11.5
+      gust_kph: 18.5
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753938000
+      time: 2025-07-31 01:00
+      temp_c: 26.1
+      temp_f: 78.9
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 5.1
+      wind_kph: 8.3
+      wind_degree: 275
+      wind_dir: W
+      pressure_mb: 1014.0
+      pressure_in: 29.94
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 66
+      cloud: 13
+      feelslike_c: 27.7
+      feelslike_f: 81.8
+      windchill_c: 26.1
+      windchill_f: 78.9
+      heatindex_c: 27.7
+      heatindex_f: 81.8
+      dewpoint_c: 19.5
+      dewpoint_f: 67.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.8
+      gust_kph: 17.4
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753941600
+      time: 2025-07-31 02:00
+      temp_c: 25.5
+      temp_f: 77.9
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 4.5
+      wind_kph: 7.2
+      wind_degree: 300
+      wind_dir: WNW
+      pressure_mb: 1014.0
+      pressure_in: 29.95
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 66
+      cloud: 11
+      feelslike_c: 27.1
+      feelslike_f: 80.9
+      windchill_c: 25.5
+      windchill_f: 77.9
+      heatindex_c: 27.1
+      heatindex_f: 80.9
+      dewpoint_c: 19.1
+      dewpoint_f: 66.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 9.4
+      gust_kph: 15.0
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753945200
+      time: 2025-07-31 03:00
+      temp_c: 24.9
+      temp_f: 76.8
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 4.9
+      wind_kph: 7.9
+      wind_degree: 332
+      wind_dir: NNW
+      pressure_mb: 1015.0
+      pressure_in: 29.96
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 73
+      cloud: 11
+      feelslike_c: 26.6
+      feelslike_f: 79.9
+      windchill_c: 24.9
+      windchill_f: 76.8
+      heatindex_c: 26.6
+      heatindex_f: 79.9
+      dewpoint_c: 19.6
+      dewpoint_f: 67.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 9.8
+      gust_kph: 15.7
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753948800
+      time: 2025-07-31 04:00
+      temp_c: 24.3
+      temp_f: 75.8
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 5.1
+      wind_kph: 8.3
+      wind_degree: 340
+      wind_dir: NNW
+      pressure_mb: 1015.0
+      pressure_in: 29.99
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 76
+      cloud: 16
+      feelslike_c: 26.2
+      feelslike_f: 79.1
+      windchill_c: 24.3
+      windchill_f: 75.8
+      heatindex_c: 26.2
+      heatindex_f: 79.1
+      dewpoint_c: 19.9
+      dewpoint_f: 67.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.0
+      gust_kph: 16.2
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753952400
+      time: 2025-07-31 05:00
+      temp_c: 23.9
+      temp_f: 75.0
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 4.5
+      wind_kph: 7.2
+      wind_degree: 13
+      wind_dir: NNE
+      pressure_mb: 1016.0
+      pressure_in: 30.0
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 78
+      cloud: 18
+      feelslike_c: 25.8
+      feelslike_f: 78.4
+      windchill_c: 23.9
+      windchill_f: 75.0
+      heatindex_c: 25.8
+      heatindex_f: 78.4
+      dewpoint_c: 19.8
+      dewpoint_f: 67.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.5
+      gust_kph: 13.7
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1753956000
+      time: 2025-07-31 06:00
+      temp_c: 23.4
+      temp_f: 74.2
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 4.7
+      wind_kph: 7.6
+      wind_degree: 21
+      wind_dir: NNE
+      pressure_mb: 1017.0
+      pressure_in: 30.02
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 78
+      cloud: 36
+      feelslike_c: 25.4
+      feelslike_f: 77.7
+      windchill_c: 23.4
+      windchill_f: 74.2
+      heatindex_c: 25.4
+      heatindex_f: 77.7
+      dewpoint_c: 19.4
+      dewpoint_f: 67.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.7
+      gust_kph: 14.0
+      uv: 0.0
+      short_rad: 0.84
+      diff_rad: 0.4
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753959600
+      time: 2025-07-31 07:00
+      temp_c: 23.0
+      temp_f: 73.4
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 6.3
+      wind_kph: 10.1
+      wind_degree: 32
+      wind_dir: NNE
+      pressure_mb: 1018.0
+      pressure_in: 30.06
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 78
+      cloud: 29
+      feelslike_c: 25.1
+      feelslike_f: 77.2
+      windchill_c: 23.0
+      windchill_f: 73.4
+      heatindex_c: 25.1
+      heatindex_f: 77.2
+      dewpoint_c: 18.9
+      dewpoint_f: 66.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 9.6
+      gust_kph: 15.4
+      uv: 0.4
+      short_rad: 19.36
+      diff_rad: 6.54
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753963200
+      time: 2025-07-31 08:00
+      temp_c: 22.7
+      temp_f: 72.9
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 7.8
+      wind_kph: 12.6
+      wind_degree: 45
+      wind_dir: NE
+      pressure_mb: 1018.0
+      pressure_in: 30.07
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 76
+      cloud: 49
+      feelslike_c: 24.9
+      feelslike_f: 76.8
+      windchill_c: 22.7
+      windchill_f: 72.9
+      heatindex_c: 24.9
+      heatindex_f: 76.8
+      dewpoint_c: 18.1
+      dewpoint_f: 64.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.2
+      gust_kph: 16.4
+      uv: 1.0
+      short_rad: 60.42
+      diff_rad: 15.18
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753966800
+      time: 2025-07-31 09:00
+      temp_c: 22.6
+      temp_f: 72.7
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 8.9
+      wind_kph: 14.4
+      wind_degree: 54
+      wind_dir: NE
+      pressure_mb: 1019.0
+      pressure_in: 30.09
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 73
+      cloud: 77
+      feelslike_c: 24.8
+      feelslike_f: 76.7
+      windchill_c: 22.6
+      windchill_f: 72.7
+      heatindex_c: 24.8
+      heatindex_f: 76.7
+      dewpoint_c: 17.4
+      dewpoint_f: 63.4
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.4
+      gust_kph: 16.7
+      uv: 1.7
+      short_rad: 450.4
+      diff_rad: 69.66
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753970400
+      time: 2025-07-31 10:00
+      temp_c: 22.7
+      temp_f: 72.9
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 8.9
+      wind_kph: 14.4
+      wind_degree: 65
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.11
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 67
+      cloud: 86
+      feelslike_c: 24.8
+      feelslike_f: 76.7
+      windchill_c: 22.7
+      windchill_f: 72.9
+      heatindex_c: 24.8
+      heatindex_f: 76.7
+      dewpoint_c: 16.1
+      dewpoint_f: 61.1
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.3
+      gust_kph: 16.6
+      uv: 1.5
+      short_rad: 519.98
+      diff_rad: 109.75
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753974000
+      time: 2025-07-31 11:00
+      temp_c: 22.5
+      temp_f: 72.5
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 9.2
+      wind_kph: 14.8
+      wind_degree: 70
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.11
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 61
+      cloud: 79
+      feelslike_c: 24.7
+      feelslike_f: 76.5
+      windchill_c: 22.5
+      windchill_f: 72.5
+      heatindex_c: 24.7
+      heatindex_f: 76.5
+      dewpoint_c: 14.9
+      dewpoint_f: 58.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.6
+      gust_kph: 17.0
+      uv: 4.2
+      short_rad: 567.72
+      diff_rad: 165.06
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753977600
+      time: 2025-07-31 12:00
+      temp_c: 22.5
+      temp_f: 72.4
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 9.2
+      wind_kph: 14.8
+      wind_degree: 69
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.12
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 60
+      cloud: 92
+      feelslike_c: 24.7
+      feelslike_f: 76.5
+      windchill_c: 22.5
+      windchill_f: 72.4
+      heatindex_c: 24.7
+      heatindex_f: 76.5
+      dewpoint_c: 14.2
+      dewpoint_f: 57.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 11.3
+      gust_kph: 18.1
+      uv: 5.2
+      short_rad: 450.04
+      diff_rad: 139.48
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753981200
+      time: 2025-07-31 13:00
+      temp_c: 22.5
+      temp_f: 72.5
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 8.9
+      wind_kph: 14.4
+      wind_degree: 72
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.12
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 58
+      cloud: 87
+      feelslike_c: 24.7
+      feelslike_f: 76.4
+      windchill_c: 22.5
+      windchill_f: 72.5
+      heatindex_c: 24.7
+      heatindex_f: 76.4
+      dewpoint_c: 13.7
+      dewpoint_f: 56.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 11.7
+      gust_kph: 18.8
+      uv: 4.8
+      short_rad: 377.97
+      diff_rad: 123.83
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753984800
+      time: 2025-07-31 14:00
+      temp_c: 22.2
+      temp_f: 72.0
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 9.2
+      wind_kph: 14.8
+      wind_degree: 63
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.13
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 56
+      cloud: 97
+      feelslike_c: 24.6
+      feelslike_f: 76.3
+      windchill_c: 22.2
+      windchill_f: 72.0
+      heatindex_c: 24.6
+      heatindex_f: 76.3
+      dewpoint_c: 13.4
+      dewpoint_f: 56.1
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 12.3
+      gust_kph: 19.8
+      uv: 1.7
+      short_rad: 324.8
+      diff_rad: 110.4
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753988400
+      time: 2025-07-31 15:00
+      temp_c: 21.1
+      temp_f: 70.0
+      is_day: 1
+      condition:
+        text: Overcast
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 8.9
+      wind_kph: 14.4
+      wind_degree: 64
+      wind_dir: ENE
+      pressure_mb: 1019.0
+      pressure_in: 30.1
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 76
+      cloud: 100
+      feelslike_c: 22.0
+      feelslike_f: 71.6
+      windchill_c: 22.0
+      windchill_f: 71.6
+      heatindex_c: 24.6
+      heatindex_f: 76.2
+      dewpoint_c: 14.2
+      dewpoint_f: 57.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 13.0
+      vis_miles: 8.0
+      gust_mph: 11.9
+      gust_kph: 19.2
+      uv: 1.1
+      short_rad: 98.96
+      diff_rad: 65.7
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753992000
+      time: 2025-07-31 16:00
+      temp_c: 21.7
+      temp_f: 71.1
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 7.4
+      wind_kph: 11.9
+      wind_degree: 65
+      wind_dir: ENE
+      pressure_mb: 1020.0
+      pressure_in: 30.13
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 64
+      cloud: 74
+      feelslike_c: 21.7
+      feelslike_f: 71.1
+      windchill_c: 21.7
+      windchill_f: 71.1
+      heatindex_c: 24.5
+      heatindex_f: 76.1
+      dewpoint_c: 14.6
+      dewpoint_f: 58.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 5.0
+      vis_miles: 3.0
+      gust_mph: 11.4
+      gust_kph: 18.4
+      uv: 0.7
+      short_rad: 67.02
+      diff_rad: 46.33
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753995600
+      time: 2025-07-31 17:00
+      temp_c: 21.2
+      temp_f: 70.2
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 7.4
+      wind_kph: 11.9
+      wind_degree: 52
+      wind_dir: NE
+      pressure_mb: 1020.0
+      pressure_in: 30.13
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 67
+      cloud: 67
+      feelslike_c: 21.2
+      feelslike_f: 70.2
+      windchill_c: 21.2
+      windchill_f: 70.2
+      heatindex_c: 23.4
+      heatindex_f: 74.1
+      dewpoint_c: 15.0
+      dewpoint_f: 59.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 10.8
+      gust_kph: 17.4
+      uv: 0.3
+      short_rad: 52.5
+      diff_rad: 37.03
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1753999200
+      time: 2025-07-31 18:00
+      temp_c: 20.8
+      temp_f: 69.5
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 7.2
+      wind_kph: 11.5
+      wind_degree: 50
+      wind_dir: NE
+      pressure_mb: 1021.0
+      pressure_in: 30.14
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 68
+      cloud: 83
+      feelslike_c: 20.8
+      feelslike_f: 69.5
+      windchill_c: 20.8
+      windchill_f: 69.5
+      heatindex_c: 22.2
+      heatindex_f: 72.0
+      dewpoint_c: 14.7
+      dewpoint_f: 58.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 10.0
+      gust_kph: 16.1
+      uv: 0.2
+      short_rad: 44.52
+      diff_rad: 31.55
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754002800
+      time: 2025-07-31 19:00
+      temp_c: 20.4
+      temp_f: 68.7
+      is_day: 1
+      condition:
+        text: 'Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/119.png"
+        code: 1006
+      wind_mph: 6.7
+      wind_kph: 10.8
+      wind_degree: 37
+      wind_dir: NE
+      pressure_mb: 1021.0
+      pressure_in: 30.14
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 69
+      cloud: 92
+      feelslike_c: 20.4
+      feelslike_f: 68.7
+      windchill_c: 20.4
+      windchill_f: 68.7
+      heatindex_c: 21.1
+      heatindex_f: 70.0
+      dewpoint_c: 14.6
+      dewpoint_f: 58.2
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 9.4
+      gust_kph: 15.2
+      uv: 0.0
+      short_rad: 36.3
+      diff_rad: 25.84
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754006400
+      time: 2025-07-31 20:00
+      temp_c: 20.1
+      temp_f: 68.2
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 6.3
+      wind_kph: 10.1
+      wind_degree: 24
+      wind_dir: NNE
+      pressure_mb: 1021.0
+      pressure_in: 30.14
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 70
+      cloud: 100
+      feelslike_c: 20.1
+      feelslike_f: 68.2
+      windchill_c: 20.1
+      windchill_f: 68.2
+      heatindex_c: 20.5
+      heatindex_f: 68.9
+      dewpoint_c: 14.4
+      dewpoint_f: 58.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 7.0
+      vis_miles: 4.0
+      gust_mph: 8.9
+      gust_kph: 14.3
+      uv: 0.0
+      short_rad: 30.45
+      diff_rad: 21.7
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754010000
+      time: 2025-07-31 21:00
+      temp_c: 20.0
+      temp_f: 67.9
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 6.9
+      wind_kph: 11.2
+      wind_degree: 33
+      wind_dir: NNE
+      pressure_mb: 1021.0
+      pressure_in: 30.16
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 70
+      cloud: 100
+      feelslike_c: 20.0
+      feelslike_f: 67.9
+      windchill_c: 20.0
+      windchill_f: 67.9
+      heatindex_c: 20.1
+      heatindex_f: 68.2
+      dewpoint_c: 14.3
+      dewpoint_f: 57.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 9.8
+      gust_kph: 15.8
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754013600
+      time: 2025-07-31 22:00
+      temp_c: 17.8
+      temp_f: 64.0
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.3
+      wind_kph: 13.3
+      wind_degree: 40
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 71
+      cloud: 100
+      feelslike_c: 17.8
+      feelslike_f: 64.1
+      windchill_c: 17.8
+      windchill_f: 64.1
+      heatindex_c: 17.9
+      heatindex_f: 64.2
+      dewpoint_c: 14.3
+      dewpoint_f: 57.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 11.8
+      gust_kph: 18.9
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754017200
+      time: 2025-07-31 23:00
+      temp_c: 18.6
+      temp_f: 65.5
+      is_day: 0
+      condition:
+        text: Moderate rain
+        icon: "//cdn.weatherapi.com/weather/64x64/night/302.png"
+        code: 1189
+      wind_mph: 6.7
+      wind_kph: 10.8
+      wind_degree: 42
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 2.84
+      precip_in: 0.11
+      snow_cm: 0.0
+      humidity: 98
+      cloud: 100
+      feelslike_c: 18.6
+      feelslike_f: 65.5
+      windchill_c: 18.6
+      windchill_f: 65.5
+      heatindex_c: 18.6
+      heatindex_f: 65.6
+      dewpoint_c: 15.3
+      dewpoint_f: 59.6
+      will_it_rain: 1
+      chance_of_rain: 100
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 7.0
+      vis_miles: 4.0
+      gust_mph: 9.4
+      gust_kph: 15.2
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+  - date: '2025-08-01'
+    date_epoch: 1754006400
+    day:
+      maxtemp_c: 17.5
+      maxtemp_f: 63.5
+      mintemp_c: 15.9
+      mintemp_f: 60.6
+      avgtemp_c: 17.3
+      avgtemp_f: 63.2
+      maxwind_mph: 11.4
+      maxwind_kph: 18.4
+      totalprecip_mm: 0.0
+      totalprecip_in: 0.0
+      totalsnow_cm: 0.0
+      avgvis_km: 8.4
+      avgvis_miles: 5.0
+      avghumidity: 84
+      daily_will_it_rain: 0
+      daily_chance_of_rain: 0
+      daily_will_it_snow: 0
+      daily_chance_of_snow: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      uv: 0.4
+    astro:
+      sunrise: 05:37 AM
+      sunset: '08:03 PM'
+      moonrise: 01:51 PM
+      moonset: 11:29 PM
+      moon_phase: First Quarter
+      moon_illumination: 45
+      is_moon_up: 1
+      is_sun_up: 1
+    hour:
+    - time_epoch: 1754020800
+      time: 2025-08-01 00:00
+      temp_c: 18.9
+      temp_f: 66.1
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.7
+      wind_kph: 14.0
+      wind_degree: 42
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 71
+      cloud: 100
+      feelslike_c: 18.9
+      feelslike_f: 66.1
+      windchill_c: 18.9
+      windchill_f: 66.1
+      heatindex_c: 18.9
+      heatindex_f: 66.1
+      dewpoint_c: 14.0
+      dewpoint_f: 57.1
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 12.4
+      gust_kph: 19.9
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754024400
+      time: 2025-08-01 01:00
+      temp_c: 19.0
+      temp_f: 66.2
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.5
+      wind_kph: 13.7
+      wind_degree: 52
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 71
+      cloud: 100
+      feelslike_c: 19.0
+      feelslike_f: 66.2
+      windchill_c: 19.0
+      windchill_f: 66.2
+      heatindex_c: 19.0
+      heatindex_f: 66.2
+      dewpoint_c: 13.8
+      dewpoint_f: 56.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 12.3
+      gust_kph: 19.8
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754028000
+      time: 2025-08-01 02:00
+      temp_c: 18.5
+      temp_f: 65.2
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.3
+      wind_kph: 13.3
+      wind_degree: 48
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 71
+      cloud: 100
+      feelslike_c: 18.5
+      feelslike_f: 65.2
+      windchill_c: 18.5
+      windchill_f: 65.2
+      heatindex_c: 18.5
+      heatindex_f: 65.2
+      dewpoint_c: 13.7
+      dewpoint_f: 56.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 12.0
+      gust_kph: 19.3
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754031600
+      time: 2025-08-01 03:00
+      temp_c: 17.9
+      temp_f: 64.2
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.7
+      wind_kph: 14.0
+      wind_degree: 53
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 80
+      cloud: 100
+      feelslike_c: 17.9
+      feelslike_f: 64.2
+      windchill_c: 17.9
+      windchill_f: 64.2
+      heatindex_c: 17.9
+      heatindex_f: 64.2
+      dewpoint_c: 14.2
+      dewpoint_f: 57.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 12.7
+      gust_kph: 20.4
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754035200
+      time: 2025-08-01 04:00
+      temp_c: 17.3
+      temp_f: 63.1
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 9.2
+      wind_kph: 14.8
+      wind_degree: 49
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 84
+      cloud: 100
+      feelslike_c: 17.3
+      feelslike_f: 63.1
+      windchill_c: 17.3
+      windchill_f: 63.1
+      heatindex_c: 17.3
+      heatindex_f: 63.1
+      dewpoint_c: 14.5
+      dewpoint_f: 58.1
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 13.4
+      gust_kph: 21.5
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754038800
+      time: 2025-08-01 05:00
+      temp_c: 17.0
+      temp_f: 62.6
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 10.1
+      wind_kph: 16.2
+      wind_degree: 51
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 88
+      cloud: 100
+      feelslike_c: 17.0
+      feelslike_f: 62.6
+      windchill_c: 17.0
+      windchill_f: 62.6
+      heatindex_c: 17.0
+      heatindex_f: 62.6
+      dewpoint_c: 14.8
+      dewpoint_f: 58.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 2.0
+      vis_miles: 1.0
+      gust_mph: 14.6
+      gust_kph: 23.5
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754042400
+      time: 2025-08-01 06:00
+      temp_c: 16.8
+      temp_f: 62.3
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 11.0
+      wind_kph: 17.6
+      wind_degree: 54
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 89
+      cloud: 100
+      feelslike_c: 16.8
+      feelslike_f: 62.3
+      windchill_c: 16.8
+      windchill_f: 62.3
+      heatindex_c: 16.8
+      heatindex_f: 62.3
+      dewpoint_c: 14.8
+      dewpoint_f: 58.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 2.0
+      vis_miles: 1.0
+      gust_mph: 16.1
+      gust_kph: 25.9
+      uv: 0.0
+      short_rad: 0.04
+      diff_rad: 0.02
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754046000
+      time: 2025-08-01 07:00
+      temp_c: 16.8
+      temp_f: 62.2
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.1
+      wind_kph: 16.2
+      wind_degree: 54
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 89
+      cloud: 100
+      feelslike_c: 16.8
+      feelslike_f: 62.2
+      windchill_c: 16.8
+      windchill_f: 62.2
+      heatindex_c: 16.8
+      heatindex_f: 62.2
+      dewpoint_c: 14.9
+      dewpoint_f: 58.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 9.0
+      vis_miles: 5.0
+      gust_mph: 14.6
+      gust_kph: 23.5
+      uv: 0.1
+      short_rad: 0.9
+      diff_rad: 0.66
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754049600
+      time: 2025-08-01 08:00
+      temp_c: 16.9
+      temp_f: 62.4
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 9.8
+      wind_kph: 15.8
+      wind_degree: 54
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 89
+      cloud: 100
+      feelslike_c: 16.9
+      feelslike_f: 62.4
+      windchill_c: 16.9
+      windchill_f: 62.4
+      heatindex_c: 16.9
+      heatindex_f: 62.4
+      dewpoint_c: 14.9
+      dewpoint_f: 58.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 2.0
+      vis_miles: 1.0
+      gust_mph: 14.3
+      gust_kph: 23.0
+      uv: 0.1
+      short_rad: 1.9
+      diff_rad: 1.47
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754053200
+      time: 2025-08-01 09:00
+      temp_c: 17.0
+      temp_f: 62.6
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 9.6
+      wind_kph: 15.5
+      wind_degree: 52
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 85
+      cloud: 96
+      feelslike_c: 17.0
+      feelslike_f: 62.6
+      windchill_c: 17.0
+      windchill_f: 62.6
+      heatindex_c: 17.0
+      heatindex_f: 62.6
+      dewpoint_c: 14.5
+      dewpoint_f: 58.1
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 2.0
+      vis_miles: 1.0
+      gust_mph: 14.0
+      gust_kph: 22.5
+      uv: 0.4
+      short_rad: 16.6
+      diff_rad: 12.88
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754056800
+      time: 2025-08-01 10:00
+      temp_c: 17.2
+      temp_f: 62.9
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 9.8
+      wind_kph: 15.8
+      wind_degree: 51
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 84
+      cloud: 94
+      feelslike_c: 17.2
+      feelslike_f: 62.9
+      windchill_c: 17.2
+      windchill_f: 62.9
+      heatindex_c: 17.2
+      heatindex_f: 62.9
+      dewpoint_c: 14.3
+      dewpoint_f: 57.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 14.2
+      gust_kph: 22.9
+      uv: 1.7
+      short_rad: 32.44
+      diff_rad: 23.17
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754060400
+      time: 2025-08-01 11:00
+      temp_c: 17.3
+      temp_f: 63.1
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.5
+      wind_kph: 16.9
+      wind_degree: 52
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 82
+      cloud: 92
+      feelslike_c: 17.3
+      feelslike_f: 63.1
+      windchill_c: 17.3
+      windchill_f: 63.1
+      heatindex_c: 17.3
+      heatindex_f: 63.1
+      dewpoint_c: 14.2
+      dewpoint_f: 57.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 15.1
+      gust_kph: 24.2
+      uv: 0.9
+      short_rad: 48.74
+      diff_rad: 33.58
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754064000
+      time: 2025-08-01 12:00
+      temp_c: 17.4
+      temp_f: 63.3
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.7
+      wind_kph: 17.3
+      wind_degree: 49
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 84
+      cloud: 96
+      feelslike_c: 17.4
+      feelslike_f: 63.3
+      windchill_c: 17.4
+      windchill_f: 63.3
+      heatindex_c: 17.4
+      heatindex_f: 63.3
+      dewpoint_c: 14.6
+      dewpoint_f: 58.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 15.5
+      gust_kph: 24.9
+      uv: 0.9
+      short_rad: 75.5
+      diff_rad: 49.62
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754067600
+      time: 2025-08-01 13:00
+      temp_c: 17.4
+      temp_f: 63.4
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.3
+      wind_kph: 16.6
+      wind_degree: 46
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 84
+      cloud: 98
+      feelslike_c: 17.4
+      feelslike_f: 63.4
+      windchill_c: 17.4
+      windchill_f: 63.4
+      heatindex_c: 17.4
+      heatindex_f: 63.4
+      dewpoint_c: 14.8
+      dewpoint_f: 58.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 13.6
+      gust_kph: 21.9
+      uv: 1.0
+      short_rad: 123.01
+      diff_rad: 76.18
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754071200
+      time: 2025-08-01 14:00
+      temp_c: 17.4
+      temp_f: 63.3
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 11.4
+      wind_kph: 18.4
+      wind_degree: 51
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 85
+      cloud: 100
+      feelslike_c: 17.4
+      feelslike_f: 63.3
+      windchill_c: 17.4
+      windchill_f: 63.3
+      heatindex_c: 17.4
+      heatindex_f: 63.3
+      dewpoint_c: 15.0
+      dewpoint_f: 59.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 13.7
+      gust_kph: 22.1
+      uv: 1.4
+      short_rad: 181.71
+      diff_rad: 106.72
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754074800
+      time: 2025-08-01 15:00
+      temp_c: 17.4
+      temp_f: 63.3
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 11.2
+      wind_kph: 18.0
+      wind_degree: 54
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 87
+      cloud: 100
+      feelslike_c: 17.4
+      feelslike_f: 63.3
+      windchill_c: 17.4
+      windchill_f: 63.3
+      heatindex_c: 17.4
+      heatindex_f: 63.3
+      dewpoint_c: 15.1
+      dewpoint_f: 59.2
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 13.1
+      gust_kph: 21.1
+      uv: 1.1
+      short_rad: 455.28
+      diff_rad: 252.96
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754078400
+      time: 2025-08-01 16:00
+      temp_c: 17.3
+      temp_f: 63.2
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.5
+      wind_kph: 16.9
+      wind_degree: 55
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 87
+      cloud: 100
+      feelslike_c: 17.3
+      feelslike_f: 63.2
+      windchill_c: 17.3
+      windchill_f: 63.2
+      heatindex_c: 17.3
+      heatindex_f: 63.2
+      dewpoint_c: 15.2
+      dewpoint_f: 59.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 12.5
+      gust_kph: 20.2
+      uv: 1.3
+      short_rad: 399.14
+      diff_rad: 222.74
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754082000
+      time: 2025-08-01 17:00
+      temp_c: 17.0
+      temp_f: 62.6
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 10.1
+      wind_kph: 16.2
+      wind_degree: 59
+      wind_dir: ENE
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 88
+      cloud: 100
+      feelslike_c: 17.0
+      feelslike_f: 62.6
+      windchill_c: 17.0
+      windchill_f: 62.6
+      heatindex_c: 17.0
+      heatindex_f: 62.6
+      dewpoint_c: 15.3
+      dewpoint_f: 59.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 12.0
+      gust_kph: 19.4
+      uv: 1.2
+      short_rad: 403.7
+      diff_rad: 202.78
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754085600
+      time: 2025-08-01 18:00
+      temp_c: 16.7
+      temp_f: 62.1
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 8.3
+      wind_kph: 13.3
+      wind_degree: 65
+      wind_dir: ENE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 89
+      cloud: 100
+      feelslike_c: 16.7
+      feelslike_f: 62.1
+      windchill_c: 16.7
+      windchill_f: 62.1
+      heatindex_c: 16.7
+      heatindex_f: 62.1
+      dewpoint_c: 14.9
+      dewpoint_f: 58.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.4
+      gust_kph: 16.7
+      uv: 0.6
+      short_rad: 400.42
+      diff_rad: 173.27
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754089200
+      time: 2025-08-01 19:00
+      temp_c: 16.4
+      temp_f: 61.5
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 5.4
+      wind_kph: 8.6
+      wind_degree: 63
+      wind_dir: ENE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 90
+      cloud: 100
+      feelslike_c: 16.4
+      feelslike_f: 61.5
+      windchill_c: 16.4
+      windchill_f: 61.5
+      heatindex_c: 16.4
+      heatindex_f: 61.5
+      dewpoint_c: 14.7
+      dewpoint_f: 58.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 7.5
+      gust_kph: 12.1
+      uv: 0.2
+      short_rad: 355.14
+      diff_rad: 154.18
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754092800
+      time: 2025-08-01 20:00
+      temp_c: 16.2
+      temp_f: 61.1
+      is_day: 1
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/122.png"
+        code: 1009
+      wind_mph: 4.7
+      wind_kph: 7.6
+      wind_degree: 41
+      wind_dir: NE
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 91
+      cloud: 100
+      feelslike_c: 16.2
+      feelslike_f: 61.1
+      windchill_c: 16.2
+      windchill_f: 61.1
+      heatindex_c: 16.2
+      heatindex_f: 61.1
+      dewpoint_c: 14.6
+      dewpoint_f: 58.2
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 7.8
+      gust_kph: 12.6
+      uv: 0.0
+      short_rad: 301.87
+      diff_rad: 131.5
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754096400
+      time: 2025-08-01 21:00
+      temp_c: 16.0
+      temp_f: 60.8
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.5
+      wind_kph: 7.2
+      wind_degree: 45
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 89
+      cloud: 100
+      feelslike_c: 16.0
+      feelslike_f: 60.8
+      windchill_c: 16.0
+      windchill_f: 60.8
+      heatindex_c: 16.0
+      heatindex_f: 60.8
+      dewpoint_c: 14.1
+      dewpoint_f: 57.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.2
+      gust_kph: 13.2
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754100000
+      time: 2025-08-01 22:00
+      temp_c: 17.9
+      temp_f: 64.2
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.3
+      wind_kph: 6.8
+      wind_degree: 38
+      wind_dir: NE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 88
+      cloud: 100
+      feelslike_c: 17.9
+      feelslike_f: 64.2
+      windchill_c: 17.9
+      windchill_f: 64.2
+      heatindex_c: 17.9
+      heatindex_f: 64.2
+      dewpoint_c: 13.8
+      dewpoint_f: 56.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.1
+      gust_kph: 13.0
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754103600
+      time: 2025-08-01 23:00
+      temp_c: 16.9
+      temp_f: 62.4
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.5
+      wind_kph: 7.2
+      wind_degree: 10
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 71
+      cloud: 100
+      feelslike_c: 16.9
+      feelslike_f: 62.4
+      windchill_c: 16.9
+      windchill_f: 62.4
+      heatindex_c: 16.9
+      heatindex_f: 62.4
+      dewpoint_c: 14.2
+      dewpoint_f: 57.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.7
+      gust_kph: 14.1
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+  - date: '2025-08-02'
+    date_epoch: 1754092800
+    day:
+      maxtemp_c: 24.5
+      maxtemp_f: 76.0
+      mintemp_c: 15.8
+      mintemp_f: 60.4
+      avgtemp_c: 19.6
+      avgtemp_f: 67.3
+      maxwind_mph: 8.7
+      maxwind_kph: 14.0
+      totalprecip_mm: 0.0
+      totalprecip_in: 0.0
+      totalsnow_cm: 0.0
+      avgvis_km: 10.0
+      avgvis_miles: 6.0
+      avghumidity: 65
+      daily_will_it_rain: 0
+      daily_chance_of_rain: 0
+      daily_will_it_snow: 0
+      daily_chance_of_snow: 0
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      uv: 2.2
+    astro:
+      sunrise: 05:38 AM
+      sunset: '08:02 PM'
+      moonrise: 02:55 PM
+      moonset: 11:59 PM
+      moon_phase: Waxing Gibbous
+      moon_illumination: 54
+      is_moon_up: 1
+      is_sun_up: 1
+    hour:
+    - time_epoch: 1754107200
+      time: 2025-08-02 00:00
+      temp_c: 16.5
+      temp_f: 61.6
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 5.8
+      wind_kph: 9.4
+      wind_degree: 2
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 84
+      cloud: 94
+      feelslike_c: 16.5
+      feelslike_f: 61.6
+      windchill_c: 16.5
+      windchill_f: 61.6
+      heatindex_c: 16.5
+      heatindex_f: 61.6
+      dewpoint_c: 13.2
+      dewpoint_f: 55.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 11.3
+      gust_kph: 18.3
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754110800
+      time: 2025-08-02 01:00
+      temp_c: 16.3
+      temp_f: 61.3
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 5.4
+      wind_kph: 8.6
+      wind_degree: 354
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 82
+      cloud: 91
+      feelslike_c: 16.3
+      feelslike_f: 61.3
+      windchill_c: 16.3
+      windchill_f: 61.3
+      heatindex_c: 16.3
+      heatindex_f: 61.3
+      dewpoint_c: 13.0
+      dewpoint_f: 55.4
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.6
+      gust_kph: 17.0
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754114400
+      time: 2025-08-02 02:00
+      temp_c: 16.3
+      temp_f: 61.3
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.9
+      wind_kph: 7.9
+      wind_degree: 352
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 81
+      cloud: 88
+      feelslike_c: 16.3
+      feelslike_f: 61.3
+      windchill_c: 16.3
+      windchill_f: 61.3
+      heatindex_c: 16.3
+      heatindex_f: 61.3
+      dewpoint_c: 12.8
+      dewpoint_f: 55.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 9.8
+      gust_kph: 15.8
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754118000
+      time: 2025-08-02 03:00
+      temp_c: 16.3
+      temp_f: 61.4
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.9
+      wind_kph: 7.9
+      wind_degree: 352
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 79
+      cloud: 69
+      feelslike_c: 16.3
+      feelslike_f: 61.4
+      windchill_c: 16.3
+      windchill_f: 61.4
+      heatindex_c: 16.3
+      heatindex_f: 61.4
+      dewpoint_c: 12.7
+      dewpoint_f: 54.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.0
+      gust_kph: 16.0
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754121600
+      time: 2025-08-02 04:00
+      temp_c: 16.4
+      temp_f: 61.6
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 4.9
+      wind_kph: 7.9
+      wind_degree: 347
+      wind_dir: NNW
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 79
+      cloud: 60
+      feelslike_c: 16.4
+      feelslike_f: 61.6
+      windchill_c: 16.4
+      windchill_f: 61.6
+      heatindex_c: 16.4
+      heatindex_f: 61.6
+      dewpoint_c: 12.7
+      dewpoint_f: 54.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 10.1
+      gust_kph: 16.3
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754125200
+      time: 2025-08-02 05:00
+      temp_c: 16.8
+      temp_f: 62.3
+      is_day: 0
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/116.png"
+        code: 1003
+      wind_mph: 4.5
+      wind_kph: 7.2
+      wind_degree: 340
+      wind_dir: NNW
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 78
+      cloud: 51
+      feelslike_c: 16.8
+      feelslike_f: 62.3
+      windchill_c: 16.8
+      windchill_f: 62.3
+      heatindex_c: 16.8
+      heatindex_f: 62.3
+      dewpoint_c: 12.6
+      dewpoint_f: 54.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 9.4
+      gust_kph: 15.0
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754128800
+      time: 2025-08-02 06:00
+      temp_c: 17.2
+      temp_f: 62.9
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 4.3
+      wind_kph: 6.8
+      wind_degree: 336
+      wind_dir: NNW
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 75
+      cloud: 53
+      feelslike_c: 17.2
+      feelslike_f: 62.9
+      windchill_c: 17.2
+      windchill_f: 62.9
+      heatindex_c: 17.2
+      heatindex_f: 62.9
+      dewpoint_c: 12.7
+      dewpoint_f: 54.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.9
+      gust_kph: 14.3
+      uv: 0.0
+      short_rad: 0.68
+      diff_rad: 0.32
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754132400
+      time: 2025-08-02 07:00
+      temp_c: 17.5
+      temp_f: 63.6
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 3.8
+      wind_kph: 6.1
+      wind_degree: 341
+      wind_dir: NNW
+      pressure_mb: 1022.0
+      pressure_in: 30.18
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 73
+      cloud: 55
+      feelslike_c: 17.5
+      feelslike_f: 63.6
+      windchill_c: 17.5
+      windchill_f: 63.6
+      heatindex_c: 17.5
+      heatindex_f: 63.6
+      dewpoint_c: 12.7
+      dewpoint_f: 54.8
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 6.4
+      gust_kph: 10.3
+      uv: 0.4
+      short_rad: 19.9
+      diff_rad: 5.93
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754136000
+      time: 2025-08-02 08:00
+      temp_c: 19.0
+      temp_f: 66.1
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 4.3
+      wind_kph: 6.8
+      wind_degree: 351
+      wind_dir: N
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 72
+      cloud: 56
+      feelslike_c: 19.0
+      feelslike_f: 66.1
+      windchill_c: 19.0
+      windchill_f: 66.1
+      heatindex_c: 19.4
+      heatindex_f: 67.0
+      dewpoint_c: 12.7
+      dewpoint_f: 54.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 5.5
+      gust_kph: 8.9
+      uv: 1.3
+      short_rad: 63.23
+      diff_rad: 13.22
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754139600
+      time: 2025-08-02 09:00
+      temp_c: 20.3
+      temp_f: 68.6
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 3.8
+      wind_kph: 6.1
+      wind_degree: 355
+      wind_dir: N
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 63
+      cloud: 28
+      feelslike_c: 20.3
+      feelslike_f: 68.6
+      windchill_c: 20.3
+      windchill_f: 68.6
+      heatindex_c: 21.2
+      heatindex_f: 70.2
+      dewpoint_c: 12.9
+      dewpoint_f: 55.2
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 4.5
+      gust_kph: 7.2
+      uv: 2.9
+      short_rad: 471.06
+      diff_rad: 61.66
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754143200
+      time: 2025-08-02 10:00
+      temp_c: 21.6
+      temp_f: 70.9
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 3.4
+      wind_kph: 5.4
+      wind_degree: 356
+      wind_dir: N
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 58
+      cloud: 14
+      feelslike_c: 21.6
+      feelslike_f: 70.9
+      windchill_c: 21.6
+      windchill_f: 70.9
+      heatindex_c: 23.0
+      heatindex_f: 73.4
+      dewpoint_c: 12.9
+      dewpoint_f: 55.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 3.9
+      gust_kph: 6.2
+      uv: 4.8
+      short_rad: 558.72
+      diff_rad: 65.42
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754146800
+      time: 2025-08-02 11:00
+      temp_c: 22.2
+      temp_f: 72.0
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 2.0
+      wind_kph: 3.2
+      wind_degree: 14
+      wind_dir: NNE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 54
+      cloud: 0
+      feelslike_c: 23.9
+      feelslike_f: 75.0
+      windchill_c: 22.2
+      windchill_f: 72.0
+      heatindex_c: 23.9
+      heatindex_f: 75.0
+      dewpoint_c: 13.0
+      dewpoint_f: 55.4
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 2.3
+      gust_kph: 3.7
+      uv: 6.7
+      short_rad: 635.46
+      diff_rad: 68.33
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754150400
+      time: 2025-08-02 12:00
+      temp_c: 22.5
+      temp_f: 72.5
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 1.1
+      wind_kph: 1.8
+      wind_degree: 73
+      wind_dir: ENE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 53
+      cloud: 16
+      feelslike_c: 24.3
+      feelslike_f: 75.7
+      windchill_c: 22.5
+      windchill_f: 72.5
+      heatindex_c: 24.3
+      heatindex_f: 75.7
+      dewpoint_c: 12.9
+      dewpoint_f: 55.2
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 1.3
+      gust_kph: 2.1
+      uv: 7.9
+      short_rad: 698.37
+      diff_rad: 70.57
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754154000
+      time: 2025-08-02 13:00
+      temp_c: 22.6
+      temp_f: 72.7
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 2.5
+      wind_kph: 4.0
+      wind_degree: 91
+      wind_dir: E
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 53
+      cloud: 24
+      feelslike_c: 24.5
+      feelslike_f: 76.1
+      windchill_c: 22.6
+      windchill_f: 72.7
+      heatindex_c: 24.5
+      heatindex_f: 76.1
+      dewpoint_c: 12.8
+      dewpoint_f: 55.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 2.8
+      gust_kph: 4.6
+      uv: 8.1
+      short_rad: 745.06
+      diff_rad: 72.34
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754157600
+      time: 2025-08-02 14:00
+      temp_c: 23.5
+      temp_f: 74.3
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 3.1
+      wind_kph: 5.0
+      wind_degree: 101
+      wind_dir: ESE
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 53
+      cloud: 32
+      feelslike_c: 24.8
+      feelslike_f: 76.7
+      windchill_c: 23.5
+      windchill_f: 74.3
+      heatindex_c: 24.8
+      heatindex_f: 76.7
+      dewpoint_c: 12.7
+      dewpoint_f: 54.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 3.6
+      gust_kph: 5.8
+      uv: 7.2
+      short_rad: 774.35
+      diff_rad: 73.63
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754161200
+      time: 2025-08-02 15:00
+      temp_c: 23.9
+      temp_f: 75.0
+      is_day: 1
+      condition:
+        text: 'Partly Cloudy '
+        icon: "//cdn.weatherapi.com/weather/64x64/day/116.png"
+        code: 1003
+      wind_mph: 3.8
+      wind_kph: 6.1
+      wind_degree: 104
+      wind_dir: ESE
+      pressure_mb: 1021.0
+      pressure_in: 30.16
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 42
+      cloud: 27
+      feelslike_c: 24.9
+      feelslike_f: 76.9
+      windchill_c: 23.9
+      windchill_f: 75.0
+      heatindex_c: 24.9
+      heatindex_f: 76.9
+      dewpoint_c: 10.7
+      dewpoint_f: 51.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 4.4
+      gust_kph: 7.1
+      uv: 5.8
+      short_rad: 856.02
+      diff_rad: 77.29
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754164800
+      time: 2025-08-02 16:00
+      temp_c: 23.7
+      temp_f: 74.7
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 4.3
+      wind_kph: 6.8
+      wind_degree: 99
+      wind_dir: E
+      pressure_mb: 1021.0
+      pressure_in: 30.15
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 43
+      cloud: 24
+      feelslike_c: 24.9
+      feelslike_f: 76.8
+      windchill_c: 23.7
+      windchill_f: 74.7
+      heatindex_c: 24.9
+      heatindex_f: 76.8
+      dewpoint_c: 10.9
+      dewpoint_f: 51.5
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 5.0
+      gust_kph: 8.0
+      uv: 3.8
+      short_rad: 799.14
+      diff_rad: 74.93
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754168400
+      time: 2025-08-02 17:00
+      temp_c: 23.2
+      temp_f: 73.8
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 4.9
+      wind_kph: 7.9
+      wind_degree: 98
+      wind_dir: E
+      pressure_mb: 1021.0
+      pressure_in: 30.14
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 45
+      cloud: 21
+      feelslike_c: 24.7
+      feelslike_f: 76.5
+      windchill_c: 23.2
+      windchill_f: 73.8
+      heatindex_c: 24.7
+      heatindex_f: 76.5
+      dewpoint_c: 10.9
+      dewpoint_f: 51.7
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 6.3
+      gust_kph: 10.2
+      uv: 2.0
+      short_rad: 728.76
+      diff_rad: 72.05
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754172000
+      time: 2025-08-02 18:00
+      temp_c: 21.9
+      temp_f: 71.5
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 6.5
+      wind_kph: 10.4
+      wind_degree: 115
+      wind_dir: ESE
+      pressure_mb: 1021.0
+      pressure_in: 30.14
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 50
+      cloud: 13
+      feelslike_c: 21.9
+      feelslike_f: 71.5
+      windchill_c: 21.9
+      windchill_f: 71.5
+      heatindex_c: 22.7
+      heatindex_f: 72.9
+      dewpoint_c: 11.8
+      dewpoint_f: 53.3
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 8.9
+      gust_kph: 14.4
+      uv: 0.8
+      short_rad: 648.04
+      diff_rad: 68.42
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754175600
+      time: 2025-08-02 19:00
+      temp_c: 20.6
+      temp_f: 69.1
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 7.8
+      wind_kph: 12.6
+      wind_degree: 139
+      wind_dir: SE
+      pressure_mb: 1021.0
+      pressure_in: 30.15
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 60
+      cloud: 8
+      feelslike_c: 20.6
+      feelslike_f: 69.1
+      windchill_c: 20.6
+      windchill_f: 69.1
+      heatindex_c: 21.0
+      heatindex_f: 69.8
+      dewpoint_c: 12.5
+      dewpoint_f: 54.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 12.7
+      gust_kph: 20.4
+      uv: 0.2
+      short_rad: 561.36
+      diff_rad: 63.45
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754179200
+      time: 2025-08-02 20:00
+      temp_c: 19.6
+      temp_f: 67.3
+      is_day: 1
+      condition:
+        text: Sunny
+        icon: "//cdn.weatherapi.com/weather/64x64/day/113.png"
+        code: 1000
+      wind_mph: 8.1
+      wind_kph: 13.0
+      wind_degree: 175
+      wind_dir: S
+      pressure_mb: 1022.0
+      pressure_in: 30.17
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 61
+      cloud: 8
+      feelslike_c: 19.6
+      feelslike_f: 67.3
+      windchill_c: 19.6
+      windchill_f: 67.3
+      heatindex_c: 19.8
+      heatindex_f: 67.6
+      dewpoint_c: 11.6
+      dewpoint_f: 52.9
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 14.7
+      gust_kph: 23.6
+      uv: 0.0
+      short_rad: 475.47
+      diff_rad: 55.71
+      dni: 0.0
+      gti: 0.0
+    - time_epoch: 1754182800
+      time: 2025-08-02 21:00
+      temp_c: 18.8
+      temp_f: 65.9
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 8.1
+      wind_kph: 13.0
+      wind_degree: 192
+      wind_dir: SSW
+      pressure_mb: 1022.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 64
+      cloud: 7
+      feelslike_c: 18.9
+      feelslike_f: 65.9
+      windchill_c: 18.9
+      windchill_f: 65.9
+      heatindex_c: 18.9
+      heatindex_f: 66.1
+      dewpoint_c: 11.7
+      dewpoint_f: 53.0
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 14.7
+      gust_kph: 23.6
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754186400
+      time: 2025-08-02 22:00
+      temp_c: 17.3
+      temp_f: 63.2
+      is_day: 0
+      condition:
+        text: 'Clear '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/113.png"
+        code: 1000
+      wind_mph: 8.7
+      wind_kph: 14.0
+      wind_degree: 205
+      wind_dir: SSW
+      pressure_mb: 1023.0
+      pressure_in: 30.19
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 68
+      cloud: 6
+      feelslike_c: 17.3
+      feelslike_f: 63.2
+      windchill_c: 17.3
+      windchill_f: 63.2
+      heatindex_c: 17.4
+      heatindex_f: 63.3
+      dewpoint_c: 12.0
+      dewpoint_f: 53.6
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 15.1
+      gust_kph: 24.4
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0
+    - time_epoch: 1754190000
+      time: 2025-08-02 23:00
+      temp_c: 17.0
+      temp_f: 62.7
+      is_day: 0
+      condition:
+        text: 'Overcast '
+        icon: "//cdn.weatherapi.com/weather/64x64/night/122.png"
+        code: 1009
+      wind_mph: 8.7
+      wind_kph: 14.0
+      wind_degree: 216
+      wind_dir: SW
+      pressure_mb: 1023.0
+      pressure_in: 30.2
+      precip_mm: 0.0
+      precip_in: 0.0
+      snow_cm: 0.0
+      humidity: 87
+      cloud: 100
+      feelslike_c: 17.0
+      feelslike_f: 62.7
+      windchill_c: 17.0
+      windchill_f: 62.7
+      heatindex_c: 17.1
+      heatindex_f: 62.7
+      dewpoint_c: 13.6
+      dewpoint_f: 56.4
+      will_it_rain: 0
+      chance_of_rain: 0
+      will_it_snow: 0
+      chance_of_snow: 0
+      vis_km: 10.0
+      vis_miles: 6.0
+      gust_mph: 15.3
+      gust_kph: 24.6
+      uv: 0
+      short_rad: 0
+      diff_rad: 0
+      dni: 0
+      gti: 0

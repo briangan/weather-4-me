@@ -16,7 +16,6 @@ class Weather4Me::ForecastsTest < ApplicationSystemTestCase
 
     fill_in "Condition", with: @weather4_me_forecast.condition
     fill_in "Current temp", with: @weather4_me_forecast.current_temp
-    fill_in "Expires at", with: @weather4_me_forecast.expires_at
     fill_in "Forecast time", with: @weather4_me_forecast.forecast_time
     fill_in "High temp", with: @weather4_me_forecast.high_temp
     fill_in "Location", with: @weather4_me_forecast.location_id
@@ -33,7 +32,6 @@ class Weather4Me::ForecastsTest < ApplicationSystemTestCase
 
     fill_in "Condition", with: @weather4_me_forecast.condition
     fill_in "Current temp", with: @weather4_me_forecast.current_temp
-    fill_in "Expires at", with: @weather4_me_forecast.expires_at
     fill_in "Forecast time", with: @weather4_me_forecast.forecast_time
     fill_in "High temp", with: @weather4_me_forecast.high_temp
     fill_in "Location", with: @weather4_me_forecast.location_id

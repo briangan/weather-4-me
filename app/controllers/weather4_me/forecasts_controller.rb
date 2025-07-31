@@ -65,6 +65,6 @@ class Weather4Me::ForecastsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def weather4_me_forecast_params
-      params.require(:weather4_me_forecast).permit(:location_id, :current_temp, :low_temp, :high_temp, :condition, :forecast_time, :expires_at)
+      params.require(:weather4_me_forecast).permit(:location_id, :current_temp, :low_temp, :high_temp, :condition, :forecast_time)
     end
 end

@@ -7,7 +7,6 @@ one:
   high_temp: 1
   condition: MyString
   forecast_time: 2025-07-31 15:43:06
-  expires_at: 2025-07-31 15:43:06
 
 two:
   location_id: 1
@@ -16,4 +15,3 @@ two:
   high_temp: 1
   condition: MyString
   forecast_time: 2025-07-31 15:43:06
-  expires_at: 2025-07-31 15:43:06

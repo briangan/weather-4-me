@@ -17,7 +17,7 @@ class Weather4Me::ForecastsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create weather4_me_forecast" do
     assert_difference('Weather4Me::Forecast.count') do
-      post weather4_me_forecasts_url, params: { weather4_me_forecast: { condition: @weather4_me_forecast.condition, current_temp: @weather4_me_forecast.current_temp, expires_at: @weather4_me_forecast.expires_at, forecast_time: @weather4_me_forecast.forecast_time, high_temp: @weather4_me_forecast.high_temp, location_id: @weather4_me_forecast.location_id, low_temp: @weather4_me_forecast.low_temp } }
+      post weather4_me_forecasts_url, params: { weather4_me_forecast: { condition: @weather4_me_forecast.condition, current_temp: @weather4_me_forecast.current_temp, forecast_time: @weather4_me_forecast.forecast_time, high_temp: @weather4_me_forecast.high_temp, location_id: @weather4_me_forecast.location_id, low_temp: @weather4_me_forecast.low_temp } }
     end
 
     assert_redirected_to weather4_me_forecast_url(Weather4Me::Forecast.last)
@@ -34,7 +34,7 @@ class Weather4Me::ForecastsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update weather4_me_forecast" do
-    patch weather4_me_forecast_url(@weather4_me_forecast), params: { weather4_me_forecast: { condition: @weather4_me_forecast.condition, current_temp: @weather4_me_forecast.current_temp, expires_at: @weather4_me_forecast.expires_at, forecast_time: @weather4_me_forecast.forecast_time, high_temp: @weather4_me_forecast.high_temp, location_id: @weather4_me_forecast.location_id, low_temp: @weather4_me_forecast.low_temp } }
+    patch weather4_me_forecast_url(@weather4_me_forecast), params: { weather4_me_forecast: { condition: @weather4_me_forecast.condition, current_temp: @weather4_me_forecast.current_temp, forecast_time: @weather4_me_forecast.forecast_time, high_temp: @weather4_me_forecast.high_temp, location_id: @weather4_me_forecast.location_id, low_temp: @weather4_me_forecast.low_temp } }
     assert_redirected_to weather4_me_forecast_url(@weather4_me_forecast)
   end
 

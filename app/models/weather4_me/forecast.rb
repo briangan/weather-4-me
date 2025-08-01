@@ -7,5 +7,7 @@ class Weather4Me::Forecast < ApplicationRecord
 
   belongs_to :location, class_name: 'Weather4Me::Location', foreign_key: 'location_id'
 
+  scope :not_expired, -> { where('forecast_time > ?', Time.now - EXPIRATION_TIME) }
+
   validates_presence_of :location_id, :current_temp, :forecast_time
 end

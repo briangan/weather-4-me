@@ -89,4 +89,4 @@ Locations
 
 bin/rails g migration CreateLocation city:string state:string country:string zip_code:string longitude:float latitude:float
 
-bin/rails g scaffold Weather4Me::Forecast location_id:integer current_temp:integer low_temp:integer high_temp:integer condition:string forecast_time:datetime expires_at:datetime
+bin/rails g scaffold Weather4Me::Forecast location_id:integer current_temp:integer low_temp:integer high_temp:integer condition:string forecast_time:datetime

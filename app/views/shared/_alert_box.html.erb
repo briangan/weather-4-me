@@ -1,0 +1,5 @@
+  <div id="flash_messages_wrapper">
+    <% if flash[:notice].present? %><div class="alert alert-success" role="alert"><%= flash[:notice] %></div><% end -%>
+    <% if flash[:warning].present? %><div class="alert alert-warning" role="alert"><%= flash[:warning] %></div><% end -%>
+    <% if flash[:alert].present? %><div class="alert alert-danger" role="alert"><%= flash[:alert] %></div><% end -%>
+  </div>

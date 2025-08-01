@@ -1,0 +1,34 @@
+<% 
+=begin
+  Require locals:
+    forecasts: Array of Forecast
+=end
+-%>
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Location</th>
+      <th>Current temp</th>
+      <th>Low temp</th>
+      <th>High temp</th>
+      <th>Condition</th>
+      <th>Forecast time</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% forecasts.each do |forecast| %>
+      <tr>
+        <td><%= forecast.location&.to_short_s %></td>
+        <td><%= forecast.current_temp %></td>
+        <td><%= forecast.low_temp %></td>
+        <td><%= forecast.high_temp %></td>
+        <td><%= forecast.condition %></td>
+        <td>
+          <% # This may need to change to the location timezone -%>
+          <%= forecast.forecast_time.strftime('%I:%M %P') %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

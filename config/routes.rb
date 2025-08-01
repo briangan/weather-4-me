@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  namespace :weather4_me do
+  namespace :weather4_me, path:'/' do
     resources :forecasts
   end
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  
+  root to: 'weather4_me/forecasts#index'
 end

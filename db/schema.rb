@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_07_31_194306) do
+ActiveRecord::Schema.define(version: 2025_08_01_010213) do
 
   create_table "forecasts", force: :cascade do |t|
     t.integer "location_id"
@@ -34,9 +34,11 @@ ActiveRecord::Schema.define(version: 2025_07_31_194306) do
     t.float "latitude"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "address", limit: 200
     t.index ["city", "state", "country"], name: "index_locations_on_city_and_state_and_country"
     t.index ["longitude", "latitude"], name: "index_locations_on_longitude_and_latitude"
     t.index ["zip_code", "country"], name: "index_locations_on_zip_code_and_country"
+    t.index ["zip_code"], name: "index_locations_on_zip_code"
   end
 
 end

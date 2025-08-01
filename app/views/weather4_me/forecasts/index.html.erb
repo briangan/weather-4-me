@@ -1,37 +1,22 @@
-<p id="notice"><%= notice %></p>
-
-<h1>Weather4 Me Forecasts</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Location</th>
-      <th>Current temp</th>
-      <th>Low temp</th>
-      <th>High temp</th>
-      <th>Condition</th>
-      <th>Forecast time</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
+<table style="width: 100%;">
   <tbody>
-    <% @weather4_me_forecasts.each do |weather4_me_forecast| %>
-      <tr>
-        <td><%= weather4_me_forecast.location_id %></td>
-        <td><%= weather4_me_forecast.current_temp %></td>
-        <td><%= weather4_me_forecast.low_temp %></td>
-        <td><%= weather4_me_forecast.high_temp %></td>
-        <td><%= weather4_me_forecast.condition %></td>
-        <td><%= weather4_me_forecast.forecast_time %></td>
-        <td><%= link_to 'Show', weather4_me_forecast %></td>
-        <td><%= link_to 'Edit', edit_weather4_me_forecast_path(weather4_me_forecast) %></td>
-        <td><%= link_to 'Destroy', weather4_me_forecast, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
+    <tr>
+      <td><h1>Weather4Me Forecasts</h1>
+      </td>
+      <td>
+        <%= form_tag(weather4_me_forecasts_path, method:'get') do %>
+          <label for="q"><b>Location: </b></label>
+          <%= text_field_tag :q, params[:q], placeholder:'Location of weather' %>
+          <%= submit_tag 'Search', class: 'btn btn-primary' %>
+        <% end %>
+      </td>
+    </tr>
   </tbody>
 </table>
-
+<% if @is_cached %>
+  <div style="color: #999;">* Cached *</div>
+  <br/>
+<% end %>
+<%= render partial:'table', locals:{ forecasts: @forecasts } %>
 <br>
 
-<%= link_to 'New Weather4 Me Forecast', new_weather4_me_forecast_path %>

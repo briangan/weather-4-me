@@ -14,13 +14,13 @@ Things you may want to cover:
 
 ######################################################
 
-# Ruby Environment
+## Ruby Environment
 Ruby interpretor: 3.2.6 Tested
 Rails: 6.1.7
 
 Check Installation section for guide to setup the RoR environment.
 
-# Rubygems in Use
+## Rubygems in Use
 rails 6.1.x
 
 For those who use a Mac computer or ARM CPU architecture like me, 
@@ -29,8 +29,10 @@ uninitialized constant ActiveSupport::LoggerThreadSafeLevel::Logger (NameError).
 The workaround is to use older version of concurrent-ruby 1.3.4
 concurrent-ruby 1.3.4
 
-# Project Structure
-* Important files and folders
+## Project Structure
+** Important files and folders
+
+```
 .gitignore - file to configure GIT repository settings like excludes
 app
   channels - handlers of channel streaming 
@@ -57,30 +59,33 @@ lib - other classes and methods to be includes
 log - various Rails environment log files
 test - various types of tests to validate code implementations
 Gemfile - Rubygems to use
+```
 
-# API
+## API
 
 Access keys inside credentials like:
+```
 apis:
   weatherapi: "xxxxxxxxxxxxx"
   google_maps: "yyyyyyyyyyyyyyy"
+```
 
-* Weather API Service
+## Weather API Service
 The current 3rd party source of the weather data is from WeatherAPI.  The access API is based on
 1st the credentials then next environment variable WEATHER_API_KEY
 
 If other source of weather API is wanted as alternative data, implement some class to fetch and 
 convert into DayForecast records.  Then change Weather4Me::ForecastAPI.forecast to use that source.
 
-* Google Geocoder
+** Google Geocoder
 The Geocoder API is based on 1st the credentials then next environment variable GOOGLE_MAPS_API_KEY
 
 
-# Database
+## Database
 Currently for development the database source used the local SQLite inside /db folder.
 For production level, suggest to use independent relational database like MySQL or PostgreSQL.  And update configuration in config/database.yml.
 
-# Deoployment
+## Deoployment
 
 Download this from GitHub repository.  Then enter the folder weather-4-me and 
 setup the Ruby on Rails framework.
@@ -96,8 +101,8 @@ gem install concurrent-ruby -v '1.3.4'
 bundle install
 
 
-# TODOs and Future Design
-
+## TODOs and Future Design
+```
 Forecast Data
 [x] HTTP Request to API service to get JSON
   [x] convert to Forecast and save
@@ -115,11 +120,11 @@ Locations
   [x] Use geocoder
 [x] Recent locations for pick
 [ ] A database of locations for auto-complete
+```
 
+## Notes
 
-# Notes
-
-* Development steps
+** Development steps
 
 bin/rails g migration CreateLocation city:string state:string country:string zip_code:string longitude:float latitude:float
 

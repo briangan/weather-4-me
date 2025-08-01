@@ -1,6 +1,14 @@
 =begin
 Columns:
-  address - normalized address entered by user; could be used for searching this 1st b4 Geocoder
+  city - standardized city name from Geocoder or API service
+  state - standardized state name from Geocoder or API service                       
+  country - standardized country name from Geocoder or API service                     
+  zip_code - standardized postal code for the location, used saved Forecast records specific to this zip code
+  longitude - longitude of the location, captured from Geocoder or API service
+  latitude - latitude of the location, captured from Geocoder or API service     
+  created_at - timestamp of when the record was created
+  updated_at - timestamp of when the record was last updated                            
+  address - user entered address to search for location; usable for repeated same address search to get same cached location.  Currently not used yet.
 =end
 class Weather4Me::Location < ApplicationRecord
   has_many :forecasts, class_name: 'Weather4Me::Forecast', foreign_key: 'location_id'
@@ -15,5 +23,44 @@ class Weather4Me::Location < ApplicationRecord
     s = to_short_s
     s << ", #{country}" if country.present? && ['usa', 'united states', 'united states of america'].exclude?(country.downcase)
     s
+  end
+
+  ############################
+  # Class Methods
+  # 
+
+  # Use Geocoder to find the standardized location by address.
+  # @location_s <String> representing the location, can be ZIP code, city name, or full address.
+  # If the address has enough detail down to street level, it will try to find the ZIP code.
+  # If it cannot find a ZIP code, it will try to find the zip by latitude and longitude.
+  # @return <Weather4Me::Location> or nil if not found.
+  def self.find_for_location_string(location_s)
+    return nil if location_s.blank?
+
+    # Maybe typing exact address or zip code, here can search in DB and save Geocoder request.
+    location = self.where("address LIKE ? OR zip_code=?", "%#{location_s}%", location_s).first
+    return location if location
+
+    logger.debug "-> Geocoder location: #{location_s}"
+    result = Geocoder.search(location_s).first
+    return nil if result.nil?
+
+    zip = result&.postal_code
+    if zip.blank? # position not precise enough
+      mresult = Geocoder.search("#{result.latitude}, #{result.longitude}")
+      result = mresult.find{|r| r.postal_code.present? }
+      zip = result&.postal_code
+    end
+    
+    if zip.present?
+      location = Weather4Me::Location.find_or_create_by(zip_code: zip) do |loc|
+        loc.city = result&.city
+        loc.state = result&.state
+        loc.country = result&.country
+        loc.latitude = result&.latitude
+        loc.longitude = result&.longitude
+      end
+    end
+    location
   end
 end

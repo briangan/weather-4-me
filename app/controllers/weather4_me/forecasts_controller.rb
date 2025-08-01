@@ -1,8 +1,11 @@
+# Handler for weather forecast requests
 class Weather4Me::ForecastsController < ApplicationController
   before_action :set_forecast, only: %i[ show ]
   before_action :find_location, only: %i[index]
 
   # GET /forecasts or /forecasts.json
+  # params
+  #   :q - query for the location, can be ZIP code, city name, or full address.  If empty, no search is performed.
   def index
     if @location
       # Search by location or query parameter
@@ -23,51 +26,36 @@ class Weather4Me::ForecastsController < ApplicationController
   end
 
   # GET /forecasts/1 or /forecasts/1.json
+  # Print out details of specified Forecast by ID
   def show
+    respond_to do |format|
+      format.html
+      format.json { render json: @forecast }
+    end
   end
 
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    # Before action to set the forecast instance variable w/ params[:id]
     def set_forecast
       @forecast = Weather4Me::Forecast.find(params[:id])
     end
 
     # Depends on params[:q] being the query for the location via Geocoder.
-    # If the address has enough detail down to street level, it will try to find the ZIP code.
-    # If it cannot find a ZIP code, it will try to find the zip by latitude and longitude.
     def find_location
       location_s = params[:q]&.strip
       if location_s.present?
-        # Maybe typing exact address or zip code, here can search in DB and save Geocoder request.
-        # Location.where("address LIKE ? OR zip_code=:", "%#{params[:q]}%", params[:q]).first
-        result = Geocoder.search(params[:q]).first
-        zip = result&.postal_code
-        if zip.blank? # position not precise enough
-          mresult = Geocoder.search("#{result.latitude}, #{result.longitude}")
-          result = mresult.find{|r| r.postal_code.present? }
-          zip = result&.postal_code
-        end
-        
-        if zip.present?
-          @location = Weather4Me::Location.find_or_create_by(zip_code: zip) do |loc|
-            loc.city = result&.city
-            loc.state = result&.state
-            loc.country = result&.country
-            loc.latitude = result&.latitude
-            loc.longitude = result&.longitude
-          end
-        else
-          @location = nil
-        end
+        @location = Weather4Me::Location.find_for_location_string(location_s)
 
         if @location.nil?
           flash[:warning] = 'Cannot find a valid location for this.'
+        else
+          @location.update(address: location_s.strip) if @location.address.blank?
         end
       end
     end
 
-    # Only allow a list of trusted parameters through.
+    # Only allow a list of trusted parameters through.  Mainly for saving Forecast record.  Not used now.
     def forecast_params
       params.require(:forecast).permit(:location_id, :current_temp, :low_temp, :high_temp, :condition, :forecast_time)
     end

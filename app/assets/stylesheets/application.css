@@ -29,3 +29,11 @@ body {
     border: 1px solid #ddd;
   }
 }
+
+.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  padding: 10px;
+  margin-bottom: 20px;
+}

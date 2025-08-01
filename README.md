@@ -30,7 +30,33 @@ The workaround is to use older version of concurrent-ruby 1.3.4
 concurrent-ruby 1.3.4
 
 # Project Structure
-
+* Important files and folders
+.gitignore - file to configure GIT repository settings like excludes
+app
+  channels - handlers of channel streaming 
+  controllers - classes to handle requests
+  helpers - classes that contain helping methods for view level to use
+  javascript - generated JS files used by webpack 
+  jobs - scripts to run codes separate from server process
+  mailers - email generator of various templates & data
+  models - objects mapping attributes of data table
+  services - utility classes other than controllers, jobs,
+  views - pages for different controller methods/routes
+bin - contains generated executives like rails, rake using specified RoR versions
+config
+  credentials - encrypted setting file
+  environments - Rails environment based settings
+  initializers - the codes that run at launch of server
+  locals - dictionaries of wording for various language locales
+  webpack - Rails environment based JS pack settings
+db
+  migrate - sequence of DB related changes
+  development.sqlite3 - default data file for SQLite database
+  weatherapi_forecast.yml - sample of output of weatherapi.com forecast API request in YAML format
+lib - other classes and methods to be includes
+log - various Rails environment log files
+test - various types of tests to validate code implementations
+Gemfile - Rubygems to use
 
 # API
 

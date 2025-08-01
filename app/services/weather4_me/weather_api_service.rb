@@ -54,7 +54,19 @@ class Weather4Me::WeatherApiService < Weather4Me::ApiService
         }
         
         # Here can add hourly forecasts if needed
-        # 
+        if (hourly_list = forecastday.dig('hour'))
+          hourly_list.each do |hour|
+            hour_forecast = Weather4Me::HourlyForecast.new(
+              location_id: location&.id,
+              time: Time.parse(hour['time']),
+              temp: hour['temp_f'],
+              condition: hour.dig('condition', 'text')&.strip
+            )
+            hour_forecast.save
+          end
+        end
+        
+        yield location if block_given? # yield the location for any changes
       end # each forecastday
     end
 

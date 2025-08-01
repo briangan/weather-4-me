@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2025_08_01_010213) do
+ActiveRecord::Schema.define(version: 2025_08_01_195439) do
 
   create_table "forecasts", force: :cascade do |t|
     t.integer "location_id"
@@ -23,6 +23,17 @@ ActiveRecord::Schema.define(version: 2025_08_01_010213) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["location_id", "forecast_time"], name: "index_forecasts_on_location_id_and_forecast_time"
     t.index ["location_id"], name: "index_forecasts_on_location_id"
+  end
+
+  create_table "hourly_forecasts", force: :cascade do |t|
+    t.integer "location_id", null: false
+    t.datetime "time"
+    t.integer "temp"
+    t.string "condition"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["location_id", "time"], name: "index_hourly_forecasts_on_location_id_and_time"
+    t.index ["location_id"], name: "index_hourly_forecasts_on_location_id"
   end
 
   create_table "locations", force: :cascade do |t|

@@ -3,6 +3,7 @@
   Require locals:
     forecasts: Array of Forecast
 =end
+  current_timezone = Timezone['America/New_York']
 -%>
 <table class="data-table">
   <thead>
@@ -26,9 +27,27 @@
         <td data-column="condition"><%= forecast.condition %></td>
         <td data-column="forecast_time">
           <% # This may need to change to the location timezone -%>
-          <%= forecast.forecast_time.strftime('%I:%M %P') %>
+          <%= current_timezone.utc_to_local(forecast.forecast_time).strftime('%I:%M %P') %>
         </td>
       </tr>
+      <% if @hourly_forecasts.present? %>
+        <tr>
+          <td colspan="6">
+            <h4>Hourly Forecasts</h4>
+            <div id="hourly_forecasts" style="overflow-x: scroll;">
+              <% @hourly_forecasts.each do |hourly| %>
+                <span class="hourly-cell">
+                  <span class="hour-text"><%= current_timezone.utc_to_local(hourly.time).strftime('%l %P') %></span>
+                  <br/>
+                  <span class="temperature-text"><%= hourly.temp %></span>
+                  <br/>
+                  <%= hourly.condition %>
+                </span>
+              <% end %>
+            </div>
+          </td>
+        </tr>
+      <% end # @hourly_forecasts -%>
     <% end %>
   </tbody>
 </table>

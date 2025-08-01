@@ -15,6 +15,8 @@ class Weather4Me::ForecastsController < ApplicationController
       else
         @is_cached = true
       end
+      @hourly_forecasts = @location.hourly_forecasts.where("time >= ?", Time.now.in_time_zone(0) ).order('time asc').limit(24)
+      logger.debug "| hourly_forecasts: #{@hourly_forecasts.count} for location: #{@location.to_s}"
     else
       @forecasts = []
     end

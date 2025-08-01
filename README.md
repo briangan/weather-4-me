@@ -27,7 +27,6 @@ For those who use a Mac computer or ARM CPU architecture like me,
 Ruby 3.2 + Rails 6 might break upon conole or server launch w/ 
 uninitialized constant ActiveSupport::LoggerThreadSafeLevel::Logger (NameError).
 The workaround is to use older version of concurrent-ruby 1.3.4
-concurrent-ruby 1.3.4
 
 ## Project Structure
 ** Important files and folders
@@ -107,12 +106,14 @@ Forecast Data
 [x] HTTP Request to API service to get JSON
   [x] convert to Forecast and save
   [x] alert if request fails
-[ ] Hourly data that allows scrolling down forecast of individual hours since now.
+[x] Hourly data that provides the forecast of individual hours since now.
 
 Forecast View
 [x] Based on given address, search for Forecast records to display
   [x] DB query Forecast for existing, non-expiring (30 mins) saved result
   [x] If no saved, non-expiring result, fetch & parse from API service
+[ ] Correct output of forecast_time to match timezone of location 
+  * problem: Geocoder search doesn't provide timezone data; need separate request using timezone gem via Google service
 
 Locations
 [x] Parse API service normalized/standardized location.  Find by city + state + country or create the location.
@@ -126,6 +127,8 @@ Locations
 
 ** Development steps
 
-bin/rails g migration CreateLocation city:string state:string country:string zip_code:string longitude:float latitude:float
+bin/rails g migration CreateLocation city:string state:string country:string zip_code:string longitude:float latitude:float address:text
 
 bin/rails g scaffold Weather4Me::Forecast location_id:integer current_temp:integer low_temp:integer high_temp:integer condition:string forecast_time:datetime
+
+bin/rails g migration CreateHourlyForecasts location_id:integer time:datetime temp:integer condition:string

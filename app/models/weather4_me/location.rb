@@ -12,6 +12,7 @@ Columns:
 =end
 class Weather4Me::Location < ApplicationRecord
   has_many :forecasts, class_name: 'Weather4Me::Forecast', foreign_key: 'location_id'
+  has_many :hourly_forecasts, class_name: 'Weather4Me::HourlyForecast', foreign_key: 'location_id'
 
   before_save :normalize_attributes
 

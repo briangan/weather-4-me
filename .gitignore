@@ -39,6 +39,6 @@
 yarn-debug.log*
 .yarn-integrity
 
-/config/credentials/development.key
-
-/config/credentials/test.key
+# Let developer or tester use some settings
+# /config/credentials/development.key
+# /config/credentials/test.key

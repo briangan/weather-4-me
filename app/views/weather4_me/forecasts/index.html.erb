@@ -18,7 +18,13 @@
   <br/>
 <% end %>
 <div id="forecasts_result">
+  <% if @forecasts.present? %>
   <%= render partial:'table', locals:{ forecasts: @forecasts } %>
+  <% elsif params[:q].blank? %>
+    <p>
+      You can enter an address in Location text field to search for weather forecasts.
+    </p>
+  <% end %>
 </div>
 <br>
 <br>

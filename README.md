@@ -99,6 +99,8 @@ gem uninstall concurrent-ruby
 gem install concurrent-ruby -v '1.3.4'
 bundle install
 
+Run db migrations:
+bin/rails db:migrate
 
 ## TODOs and Future Design
 ```

@@ -34,12 +34,20 @@ concurrent-ruby 1.3.4
 
 # API
 
-The current 3rd party source of the weather data is from WeatherAPI.  The API key associated has a 
-default trial account value expiring on 2025/8/13.  It can overriden by setting 
-environment variable WEATHER_API_KEY.
+Access keys inside credentials like:
+apis:
+  weatherapi: "xxxxxxxxxxxxx"
+  google_maps: "yyyyyyyyyyyyyyy"
+
+* Weather API Service
+The current 3rd party source of the weather data is from WeatherAPI.  The access API is based on
+1st the credentials then next environment variable WEATHER_API_KEY
 
 If other source of weather API is wanted as alternative data, implement some class to fetch and 
 convert into DayForecast records.  Then change Weather4Me::ForecastAPI.forecast to use that source.
+
+* Google Geocoder
+The Geocoder API is based on 1st the credentials then next environment variable GOOGLE_MAPS_API_KEY
 
 
 # Database

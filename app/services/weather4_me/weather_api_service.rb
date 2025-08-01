@@ -6,6 +6,8 @@ class Weather4Me::WeatherApiService < Weather4Me::ApiService
 
   BASE_URL = 'https://api.weatherapi.com/v1'
 
+  WEATHER_API_KEY = Rails.application.credentials.dig(:apis, :weatherapi) || ENV['WEATHER_API_KEY']
+
   # @location <Weather4Me::Location> or a string representing the location
   # @return <Array of Forecast>
   def self.forecast(location)

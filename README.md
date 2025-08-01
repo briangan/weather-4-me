@@ -99,22 +99,22 @@ bundle install
 # TODOs and Future Design
 
 Forecast Data
-[ ] HTTP Request to API service to get JSON
-  [ ] convert to Forecast and save
-  [ ] alert if request fails
+[x] HTTP Request to API service to get JSON
+  [x] convert to Forecast and save
+  [x] alert if request fails
 [ ] Hourly data that allows scrolling down forecast of individual hours since now.
 
 Forecast View
-[ ] Based on given address, search for Forecast records to display
-  [ ] DB query Forecast for existing, non-expiring (30 mins) saved result
-  [ ] If no saved, non-expiring result, fetch & parse from API service
+[x] Based on given address, search for Forecast records to display
+  [x] DB query Forecast for existing, non-expiring (30 mins) saved result
+  [x] If no saved, non-expiring result, fetch & parse from API service
 
 Locations
-[ ] Parse API service normalized/standardized location.  Find by city + state + country or create the location.
-[ ] If API service data does not container zip_code, find service to convert address to get zip_code
-  [ ] Use geocoder
-[ ] Save favorite or recent locations; and show on homepage
-[ ] A database of locations 
+[x] Parse API service normalized/standardized location.  Find by city + state + country or create the location.
+[x] If API service data does not container zip_code, find service to convert address to get zip_code
+  [x] Use geocoder
+[x] Recent locations for pick
+[ ] A database of locations for auto-complete
 
 
 # Notes

@@ -19,6 +19,9 @@ class Weather4Me::ForecastsController < ApplicationController
       @forecasts = []
     end
 
+    # Distinct locations for the dropdown
+    @recent_locations = Weather4Me::Location.order('id desc').limit(10)
+
     respond_to do |format|
       format.html
       format.json { render json: @forecasts }
@@ -48,7 +51,7 @@ class Weather4Me::ForecastsController < ApplicationController
         @location = Weather4Me::Location.find_for_location_string(location_s)
 
         if @location.nil?
-          flash[:warning] = 'Cannot find a valid location for this.'
+          flash[:warning] = t('location.not_found')
         else
           @location.update(address: location_s.strip) if @location.address.blank?
         end

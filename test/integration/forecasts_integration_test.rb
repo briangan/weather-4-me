@@ -38,6 +38,11 @@ class ForecastsIntegrationTest < ActionDispatch::IntegrationTest
     assert_select "body", /Sunny/
   end
 
+  test "Invalid location" do
+    get weather4_me_forecasts_path(q: "Invalid Location")
+    assert_select "body", text: I18n.t('location.not_found')
+  end
+
   test "Fresh real time API call" do
     zip_code = @same_address_h[:zip_code]
     Weather4Me::Location.where(zip_code: zip_code).destroy_all

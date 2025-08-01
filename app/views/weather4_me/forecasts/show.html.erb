@@ -2,4 +2,6 @@
   <strong>Location:</strong>
   <%= @forecast.location&.to_s %>
 </p>
-<%= render partial:'table', locals:{ forecasts: [@forecast] } %>
+<div id="forecasts_result">
+  <%= render partial:'table', locals:{ forecasts: [@forecast] } %>
+</div>

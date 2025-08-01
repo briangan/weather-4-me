@@ -17,6 +17,16 @@
   <div style="color: #999;">* Cached *</div>
   <br/>
 <% end %>
-<%= render partial:'table', locals:{ forecasts: @forecasts } %>
+<div id="forecasts_result">
+  <%= render partial:'table', locals:{ forecasts: @forecasts } %>
+</div>
 <br>
-
+<br>
+<% if @recent_locations.present? %>
+  <h3>Recent Locations</h3>
+  <ul>
+    <% @recent_locations.each do |location| %>
+      <li><%= link_to location.to_s, weather4_me_forecasts_path(q: location.to_s) %></li>
+    <% end %>
+  </ul>
+<% end # @recent_locations %>

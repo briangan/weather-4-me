@@ -37,3 +37,17 @@ body {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+li {
+  margin: 1em 0;
+}
+
+input[type="text"] {
+  font-size: 1em;
+  padding: 0.2em 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[name="q"] {
+  width: 300px;
+}

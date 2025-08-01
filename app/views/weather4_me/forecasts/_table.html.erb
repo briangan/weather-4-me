@@ -20,11 +20,11 @@
     <% forecasts.each do |forecast| %>
       <tr>
         <td><%= forecast.location&.to_short_s %></td>
-        <td><%= forecast.current_temp %></td>
-        <td><%= forecast.low_temp %></td>
-        <td><%= forecast.high_temp %></td>
-        <td><%= forecast.condition %></td>
-        <td>
+        <td data-column="current_temp"><%= forecast.current_temp %></td>
+        <td data-column="low_temp"><%= forecast.low_temp %></td>
+        <td data-column="high_temp"><%= forecast.high_temp %></td>
+        <td data-column="condition"><%= forecast.condition %></td>
+        <td data-column="forecast_time">
           <% # This may need to change to the location timezone -%>
           <%= forecast.forecast_time.strftime('%I:%M %P') %>
         </td>

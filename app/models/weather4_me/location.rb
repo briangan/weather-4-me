@@ -13,6 +13,8 @@ Columns:
 class Weather4Me::Location < ApplicationRecord
   has_many :forecasts, class_name: 'Weather4Me::Forecast', foreign_key: 'location_id'
 
+  before_save :normalize_attributes
+
   def to_short_s
     s = [city, state].compact.join(', ')
     s << " #{zip_code}" if zip_code.present?
@@ -21,8 +23,12 @@ class Weather4Me::Location < ApplicationRecord
 
   def to_s
     s = to_short_s
-    s << ", #{country}" if country.present? && ['usa', 'united states', 'united states of america'].exclude?(country.downcase)
+    s << ", #{country}" if country.present? && !is_country_us?
     s
+  end
+
+  def is_country_us?
+    ['usa', 'united states', 'united states of america'].include?(country&.downcase)
   end
 
   ############################
@@ -62,5 +68,15 @@ class Weather4Me::Location < ApplicationRecord
       end
     end
     location
+  end
+
+  private
+
+  # Zip code's format might not be standardized
+  def normalize_attributes
+    if is_country_us?
+      self.country = 'United States'
+      self.zip_code = zip_code.match(/\A([\d]{4,5})([\s\-]\d+)?/).try(:[], 1) if zip_code.present? # keep only 1st 5 digits
+    end
   end
 end

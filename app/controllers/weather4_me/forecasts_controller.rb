@@ -15,6 +15,11 @@ class Weather4Me::ForecastsController < ApplicationController
     else
       @forecasts = []
     end
+
+    respond_to do |format|
+      format.html
+      format.json { render json: @forecasts }
+    end
   end
 
   # GET /forecasts/1 or /forecasts/1.json
@@ -55,11 +60,10 @@ class Weather4Me::ForecastsController < ApplicationController
         else
           @location = nil
         end
-      end
 
-      unless @location
-        flash[:alert] = 'Cannot find a valid location for this.'
-        redirect_to weather4_me_forecasts_path
+        if @location.nil?
+          flash[:warning] = 'Cannot find a valid location for this.'
+        end
       end
     end
 

@@ -6,13 +6,14 @@ class Weather4Me::Location < ApplicationRecord
   has_many :forecasts, class_name: 'Weather4Me::Forecast', foreign_key: 'location_id'
 
   def to_short_s
-    [city, state].compact.join(', ')
+    s = [city, state].compact.join(', ')
+    s << " #{zip_code}" if zip_code.present?
+    s
   end
 
   def to_s
     s = to_short_s
-    s << " #{zip_code}" if zip_code.present?
-    s << ", #{country}" if country.present?
+    s << ", #{country}" if country.present? && ['usa', 'united states', 'united states of america'].exclude?(country.downcase)
     s
   end
 end

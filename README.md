@@ -1,6 +1,6 @@
 # README
 
-This is a Ruby on Rails web application to fetch location-based weather forecasts.  Current source of the forecast data is from weatherapi.com.  Different API can be implemented as alternative source.
+This is a Ruby on Rails web application to fetch location-based weather forecasts.  Current source of the forecast data is from weatherapi.com.  And Google Maps' API is used for searching and normalizing addresses.  Different APIs can be reconfigured to use or implemented as alternative source.
 
 Things you may want to cover:
 * Ruby Environment
@@ -69,15 +69,19 @@ apis:
   google_maps: "yyyyyyyyyyyyyyy"
 ```
 
-## Weather API Service
+### Weather API Service
 The current 3rd party source of the weather data is from WeatherAPI.  The access API is based on
 1st the credentials then next environment variable WEATHER_API_KEY
 
 If other source of weather API is wanted as alternative data, implement some class to fetch and 
 convert into DayForecast records.  Then change Weather4Me::ForecastAPI.forecast to use that source.
+One other known API w/ free limited usage is AirNow.
 
-** Google Geocoder
+### Google Geocoder
 The Geocoder API is based on 1st the credentials then next environment variable GOOGLE_MAPS_API_KEY
+Because of the variants of addresses entered by user, either shorter, inaccurate or incomplete, 
+the rubygem geocoder uses Google Maps API and tries to return the closest and standard 
+result, so this would provide consistent identification of accurate location for querying about weather.
 
 
 ## Database
